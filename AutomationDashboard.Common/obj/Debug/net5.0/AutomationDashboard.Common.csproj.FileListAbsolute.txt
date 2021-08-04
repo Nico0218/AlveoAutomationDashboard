@@ -1,0 +1,12 @@
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\AutomationDashboard.Common.deps.json
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\AutomationDashboard.Common.dll
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\ref\AutomationDashboard.Common.dll
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\AutomationDashboard.Common.pdb
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.csproj.AssemblyReference.cache
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.GeneratedMSBuildEditorConfig.editorconfig
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.AssemblyInfoInputs.cache
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.AssemblyInfo.cs
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.csproj.CoreCompileInputs.cache
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.dll
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\ref\AutomationDashboard.Common.dll
+H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.pdb

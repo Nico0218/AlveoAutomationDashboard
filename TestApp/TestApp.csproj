@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutomationDashboard.Common\AutomationDashboard.Common.csproj" />
+    <ProjectReference Include="..\AutomationDashboard\AutomationDashboard.csproj" />
+    <ProjectReference Include="..\PLC_Client\PLC_Client.csproj" />
+  </ItemGroup>
+
+</Project>

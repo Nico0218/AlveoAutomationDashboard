@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\TestApp\\TestApp.csproj": {}
+  },
+  "projects": {
+    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard.Common\\AutomationDashboard.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard.Common\\AutomationDashboard.Common.csproj",
+        "projectName": "AutomationDashboard.Common",
+        "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard.Common\\AutomationDashboard.Common.csproj",
+        "packagesPath": "C:\\Users\\nwc7\\.nuget\\packages\\",
+        "outputPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nwc7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard\\AutomationDashboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard\\AutomationDashboard.csproj",
+        "projectName": "AutomationDashboard",
+        "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard\\AutomationDashboard.csproj",
+        "packagesPath": "C:\\Users\\nwc7\\.nuget\\packages\\",
+        "outputPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nwc7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj",
+        "projectName": "PLC_Client",
+        "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj",
+        "packagesPath": "C:\\Users\\nwc7\\.nuget\\packages\\",
+        "outputPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nwc7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Sharp7": {
+              "target": "Package",
+              "version": "[1.1.79, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\TestApp\\TestApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\TestApp\\TestApp.csproj",
+        "projectName": "TestApp",
+        "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\TestApp\\TestApp.csproj",
+        "packagesPath": "C:\\Users\\nwc7\\.nuget\\packages\\",
+        "outputPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\TestApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nwc7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard.Common\\AutomationDashboard.Common.csproj": {
+                "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard.Common\\AutomationDashboard.Common.csproj"
+              },
+              "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard\\AutomationDashboard.csproj": {
+                "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\AutomationDashboard\\AutomationDashboard.csproj"
+              },
+              "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj": {
+                "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

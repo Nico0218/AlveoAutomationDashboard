@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "6gQCwKlEPHgRL/bIuZ78HJuXHc+4guEnv1v1d1/mXaKC8swvKVtQawmm9ZOi+HMJ5W6fqsEtJQdGe672K3tRLQ==",
+  "success": true,
+  "projectFilePath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nwc7\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\sharp7\\1.1.79\\sharp7.1.1.79.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.5\\swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.5\\swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.5\\swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
+    "C:\\Users\\nwc7\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.5\\swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
