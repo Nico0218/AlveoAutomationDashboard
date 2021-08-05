@@ -8,11 +8,25 @@ namespace AutomationDashboard.Services {
         private string clinetIP = "https://localhost:44300/api/PLC";
 
         public async Task<string> ReadWord() {
-            HttpResponseMessage response = await client.GetAsync(clinetIP);
+            HttpResponseMessage response = await client.GetAsync(clinetIP + "/GetWord");
             response.EnsureSuccessStatusCode();
             if (response.StatusCode == System.Net.HttpStatusCode.OK) {
                 return await response.Content.ReadAsStringAsync();
             } else {
+                throw new System.Exception("Request Error");
+            }
+        }
+
+        public async Task<string> ReadInt()
+        {
+            HttpResponseMessage response = await client.GetAsync(clinetIP + "/GetInt");
+            response.EnsureSuccessStatusCode();
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                return await response.Content.ReadAsStringAsync();
+            }
+            else
+            {
                 throw new System.Exception("Request Error");
             }
         }

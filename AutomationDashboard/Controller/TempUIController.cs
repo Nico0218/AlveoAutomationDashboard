@@ -25,9 +25,15 @@ namespace AutomationDashboard.Controller {
 
 
         // GET api/<TempUIController>/5
-        [HttpGet("{id}")]
-        public string Get(int id) {
-            return "value";
+        [HttpGet("GetWord")]
+        public string GetWord() {
+            return tempUIService.ReadWord().Result;
+        }
+
+        [HttpGet("GetInt")]
+        public string GetInt()
+        {
+            return tempUIService.ReadInt().Result;
         }
 
         // POST api/<TempUIController>
