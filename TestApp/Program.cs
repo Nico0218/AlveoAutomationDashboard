@@ -15,8 +15,15 @@ namespace TestApp {
                 plcInterface.Connect(ip);
                 Console.WriteLine("Is Connected: " + plcInterface.isConnected().ToString());
                 //Server Implementation Test
-                TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
-                Console.WriteLine(tempUIController.Get());
+
+
+                //TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
+                //Console.WriteLine(tempUIController.Get());
+                do
+                {
+                    Console.WriteLine("Waiting");
+                    Thread.Sleep(10000);
+                } while (true);
                 plcInterface.Disconnect();
                 Console.WriteLine("Disconnected");
 
