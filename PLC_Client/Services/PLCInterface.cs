@@ -292,6 +292,7 @@ namespace PLC_Client.Services {
             }
         }
 
+        //Need to use GetAgBlockInfo to always have size of DB being read
         public byte[] ReadDB(int dbSize, int dbNumber)
         {
             try
@@ -306,17 +307,103 @@ namespace PLC_Client.Services {
             }
         }
 
-        public void WriteDB(S7WordLength s7WordLength, int dbNumber, int position, short value)
+        public void intDbWrite(int dbNumber, int position, short value, int amount = 1, S7WordLength s7WordLength = S7WordLength.Word)
         {
             try
             {
-                byte[] buffer = new byte[Convert.ToInt32(s7WordLength)];
+                int wordLength = (int)s7WordLength;
+                byte[] buffer = new byte[getBufferSize(wordLength, amount)];
                 S7.SetIntAt(buffer, 0, value);
-                client.DBWrite(dbNumber, position, Convert.ToInt32(s7WordLength), buffer);
+                client.DBWrite(dbNumber, position, wordLength, buffer);
             }
             catch (Exception ex)
             {
-             throw ex;
+            throw ex;
+            }
+
+        }
+
+        public void timeDbWrite(int dbNumber, int position, int value, int amount = 1, S7WordLength s7WordLength = S7WordLength.Word)
+        {
+            try
+            {
+                int wordLength = (int)s7WordLength;
+                byte[] buffer = new byte[getBufferSize(wordLength, amount)];
+                S7.SetDIntAt(buffer, 0, value);
+                client.DBWrite(dbNumber, position, wordLength, buffer);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void realDbWrite(int dbNumber, int position, float value, int amount = 1, S7WordLength s7WordLength = S7WordLength.Word)
+        {
+            try
+            {
+                int wordLength = (int)s7WordLength;
+                byte[] buffer = new byte[getBufferSize(wordLength, amount)];
+                S7.SetRealAt(buffer, 0, value);
+                client.DBWrite(dbNumber, position, wordLength, buffer);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void wordDbWrite(int dbNumber, int position, ushort value, int amount = 1, S7WordLength s7WordLength = S7WordLength.Word)
+        {
+            try
+            {
+                int wordLength = (int)s7WordLength;
+                byte[] buffer = new byte[getBufferSize(wordLength, amount)];
+                S7.SetWordAt(buffer, 0, value);
+                client.DBWrite(dbNumber, position, wordLength, buffer);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        
+        public void dIntDbWrite(int dbNumber, int position, ushort value, int amount = 1, S7WordLength s7WordLength = S7WordLength.Word)
+        {
+            try
+            {
+                int wordLength = (int)s7WordLength;
+                byte[] buffer = new byte[getBufferSize(wordLength, amount)];
+                S7.SetDIntAt(buffer, 0, value);
+                client.DBWrite(dbNumber, position, wordLength, buffer);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void bitChangeDB(int dbNumber, int position, int amount = 1, S7WordLength s7WordLength = S7WordLength.Bit)
+        {
+            try
+            {
+                int wordLength = (int)s7WordLength;
+                byte[] buffer = new byte[getBufferSize(wordLength, amount)];
+                byte[] result = ReadDB(17, 1);
+                bool currentState = S7.GetBitAt(result, 16, 0);
+                if (currentState == true)
+                {
+                    S7.SetBitAt(buffer, 0, 0, false);
+                }
+                else
+                {
+                    S7.SetBitAt(buffer, 0, 0, true);
+                }
+                client.DBWrite(dbNumber, position, wordLength, buffer);
+            }
+            catch (Exception)
+            {
+                throw;
             }
         }
 

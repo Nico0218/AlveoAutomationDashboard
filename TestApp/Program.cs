@@ -15,11 +15,12 @@ namespace TestApp {
                 PLCInterface plcInterface = new PLCInterface();
                 plcInterface.Connect(ip);
                 Console.WriteLine("Is Connected: " + plcInterface.isConnected().ToString());
-                do
-                {
 
-                    Thread.Sleep(2000);
-                } while (true);
+                float test = S7.GetRealAt((plcInterface.ReadDB(41, 2)), 4);
+                Console.WriteLine(test.ToString());
+                plcInterface.realDbWrite(2, 4, (float)44.5);
+                //TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
+                //Console.WriteLine(tempUIController.Get());
 
 
 
