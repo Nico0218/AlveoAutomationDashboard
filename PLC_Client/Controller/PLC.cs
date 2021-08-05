@@ -20,7 +20,7 @@ namespace PLC_Client.Controller {
 
         // GET: api/<PLC>
         [HttpGet]
-        public string Get() {
+        public string GetWord() {
             return plcInterface.ReadWord(2);
         }
 

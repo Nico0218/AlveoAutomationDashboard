@@ -23,6 +23,7 @@ namespace AutomationDashboard.Controller {
             return tempUIService.ReadWord().Result;
         }
 
+
         // GET api/<TempUIController>/5
         [HttpGet("{id}")]
         public string Get(int id) {
