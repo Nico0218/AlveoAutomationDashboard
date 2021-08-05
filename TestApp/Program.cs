@@ -11,29 +11,35 @@ namespace TestApp {
 
             try {
                 //PLC implemation Test
-                //string ip = "192.168.1.5";
-                //PLCInterface plcInterface = new PLCInterface();
-                //plcInterface.Connect(ip);
-                //Console.WriteLine("Is Connected: " + plcInterface.isConnected().ToString());
-                //Console.WriteLine("Reading Int");
-                //Console.WriteLine(plcInterface.ReadArea(18, 4, S7WordLength.Int));
-                //Console.WriteLine("Reading word before change");
-                //Console.WriteLine(plcInterface.ReadArea(2, 4, S7WordLength.Word));
-                //ushort test = Convert.ToUInt16(new Random().Next(0, 100));
-                //Console.WriteLine("Expected uint : "+ test.ToString());
-                //plcInterface.WriteWord(2, test);
-                //Console.WriteLine("Reading word after change");
-                //Console.WriteLine(plcInterface.ReadArea(2, 4, S7WordLength.Word));
-                //do {
-                //    Console.WriteLine(plcInterface.ReadBuffer());
-                //    Thread.Sleep(500);
-                //} while (true);
-                //plcInterface.Disconnect();
-                //Console.WriteLine("Disconnected");
+                string ip = "192.168.1.5";
+                PLCInterface plcInterface = new PLCInterface();
+                plcInterface.Connect(ip);
+                Console.WriteLine("Is Connected: " + plcInterface.isConnected().ToString());
+                //    do
+                //    {
+                //        plcInterface.WriteDB(S7WordLength.Int, 1, 0, 30);
+                //        int intValue = S7.GetIntAt((plcInterface.ReadDB(16, 0)), 0);
+                //        Console.WriteLine(intValue.ToString());
+
+                //        Thread.Sleep(5000);
+                //} while (true) ;
 
                 //Server Test Code
-                TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
-                Console.WriteLine(tempUIController.Get());
+                do
+                {
+                    TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
+                    Console.WriteLine(tempUIController.Get());
+                    Console.WriteLine(plcInterface.ReadWord(2));
+                    Thread.Sleep(3000);
+                } while (true);
+
+
+
+                plcInterface.Disconnect();
+                Console.WriteLine("Disconnected");
+
+
+
 
                 Console.ReadKey();
             } catch (Exception ex) {

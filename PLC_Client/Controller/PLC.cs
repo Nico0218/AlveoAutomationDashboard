@@ -21,7 +21,7 @@ namespace PLC_Client.Controller {
         // GET: api/<PLC>
         [HttpGet]
         public string Get() {
-            return plcInterface.ReadArea(2, 4, S7WordLength.Word);
+            return plcInterface.ReadWord(2);
         }
 
         // GET api/<PLC>/5

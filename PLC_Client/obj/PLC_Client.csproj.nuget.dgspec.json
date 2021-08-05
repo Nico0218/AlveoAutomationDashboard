@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj": {}
+    "C:\\Users\\Tspan\\Documents\\New folder (2)\\AlveoAutomationDashboard\\PLC_Client\\PLC_Client.csproj": {}
   },
   "projects": {
-    "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj": {
+    "C:\\Users\\Tspan\\Documents\\New folder (2)\\AlveoAutomationDashboard\\PLC_Client\\PLC_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj",
+        "projectUniqueName": "C:\\Users\\Tspan\\Documents\\New folder (2)\\AlveoAutomationDashboard\\PLC_Client\\PLC_Client.csproj",
         "projectName": "PLC_Client",
-        "projectPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\PLC_Client.csproj",
-        "packagesPath": "C:\\Users\\nwc7\\.nuget\\packages\\",
-        "outputPath": "H:\\Code Repo\\PLC App\\Client\\AutomationDashboard\\PLC_Client\\obj\\",
+        "projectPath": "C:\\Users\\Tspan\\Documents\\New folder (2)\\AlveoAutomationDashboard\\PLC_Client\\PLC_Client.csproj",
+        "packagesPath": "C:\\Users\\Tspan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tspan\\Documents\\New folder (2)\\AlveoAutomationDashboard\\PLC_Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nwc7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tspan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

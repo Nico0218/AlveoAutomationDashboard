@@ -10,3 +10,15 @@ H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\D
 H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.dll
 H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\ref\AutomationDashboard.Common.dll
 H:\Code Repo\PLC App\Client\AutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.pdb
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\AutomationDashboard.Common.deps.json
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\AutomationDashboard.Common.dll
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\ref\AutomationDashboard.Common.dll
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\bin\Debug\net5.0\AutomationDashboard.Common.pdb
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.csproj.AssemblyReference.cache
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.AssemblyInfoInputs.cache
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.AssemblyInfo.cs
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.csproj.CoreCompileInputs.cache
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.dll
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\ref\AutomationDashboard.Common.dll
+C:\Users\Tspan\Documents\New folder (2)\AlveoAutomationDashboard\AutomationDashboard.Common\obj\Debug\net5.0\AutomationDashboard.Common.pdb
