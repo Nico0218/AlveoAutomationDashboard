@@ -12,11 +12,20 @@ namespace TestApp {
             try {
                 string ip = "192.168.1.5";
                 PLCInterface plcInterface = new PLCInterface();
-                plcInterface.Connect(ip);
+                plcInterface.Connect();
                 Console.WriteLine("Is Connected: " + plcInterface.isConnected().ToString());
+
+                do
+                {
+                    TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
+                    Console.WriteLine(tempUIController.GetInt(24));
+                    Thread.Sleep(1000);
+                } while (true);
                 //Server Implementation Test
-                //TempUIController tempUIController = new TempUIController(new AutomationDashboard.Services.TempUIService());
-                //Console.WriteLine(tempUIController.Get());
+
+
+
+
                 plcInterface.Disconnect();
                 Console.WriteLine("Disconnected");
 

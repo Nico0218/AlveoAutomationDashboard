@@ -9,9 +9,9 @@ namespace PLC_Client.Services {
             client = new S7Client();
         }
 
-        public void Connect(string IP, int Rack = 0, int Slot = 1) {
+        public void Connect() {
             try {
-                client.ConnectTo(IP, Rack, Slot);
+                client.ConnectTo("192.168.1.5", 0, 1);
             } catch (Exception ex) {
                 throw ex;
             }
