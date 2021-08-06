@@ -383,23 +383,23 @@ namespace PLC_Client.Services {
             }
         }
 
-        public void bitChangeDB(int dbNumber, int position, int amount = 1, S7WordLength s7WordLength = S7WordLength.Bit)
+        public void bitChangeDB(int dbNumber, int position, int bit, int amount = 1, S7WordLength s7WordLength = S7WordLength.Bit)
         {
             try
             {
                 int wordLength = (int)s7WordLength;
                 byte[] buffer = new byte[getBufferSize(wordLength, amount)];
-                byte[] result = ReadDB(17, 1);
-                bool currentState = S7.GetBitAt(result, 16, 0);
+                byte[] result = ReadDB((position + 1), dbNumber);
+                bool currentState = S7.GetBitAt(result, position, bit);
                 if (currentState == true)
                 {
-                    S7.SetBitAt(buffer, 0, 0, false);
+                    S7.SetBitAt(result, position, bit, false);
                 }
                 else
                 {
-                    S7.SetBitAt(buffer, 0, 0, true);
+                    S7.SetBitAt(result, position, bit, true);
                 }
-                client.DBWrite(dbNumber, position, wordLength, buffer);
+                client.DBWrite(dbNumber, position, wordLength, result);
             }
             catch (Exception)
             {
