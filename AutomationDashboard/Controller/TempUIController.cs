@@ -66,89 +66,89 @@ namespace AutomationDashboard.Controller {
             return tempUIService.ReadReal(position).Result;
         }
 
-        //[HttpGet("SetWord")]
-        //public void SetWord(int position, ushort value)
-        //{
-        //    tempUIService.WriteWord(position, value);
-        //}
+        [HttpGet("SetWord")]
+        public void SetWord(int position, ushort value)
+        {
+            tempUIService.WriteWord(position, value);
+        }
 
-        //[HttpGet("SetBit")]
-        //public void SetBit(int position, int bit)
-        //{
-        //    tempUIService.WriteBit(position, bit);
-        //}
+        [HttpGet("SetBit")]
+        public void SetBit(int position, int bit)
+        {
+            tempUIService.WriteBit(position, bit);
+        }
 
-        //[HttpGet("SetByte")]
-        //public void SetByte(int position, byte value)
-        //{
-        //    tempUIService.WriteByte(position, value);
-        //}
+        [HttpGet("SetByte")]
+        public void SetByte(int position, byte value)
+        {
+            tempUIService.WriteByte(position, value);
+        }
 
-        //[HttpGet("SetChars")]
-        //public void SetChars(int position, string value)
-        //{
-        //    tempUIService.WriteChars(position, value);
-        //}
+        [HttpGet("SetChars")]
+        public void SetChars(int position, string value)
+        {
+            tempUIService.WriteChars(position, value);
+        }
 
-        //[HttpGet("SetInt")]
-        //public void SetInt(int position, short value)
-        //{
-        //    tempUIService.WriteInt(position, value);
-        //}
+        [HttpGet("SetInt")]
+        public void SetInt(int position, short value)
+        {
+            tempUIService.WriteInt(position, value);
+        }
 
-        //[HttpGet("SetDWord")]
-        //public void SetDWord(int position, uint value)
-        //{
-        //    tempUIService.WriteDWord(position, value);
-        //}
+        [HttpGet("SetDWord")]
+        public void SetDWord(int position, uint value)
+        {
+            tempUIService.WriteDWord(position, value);
+        }
 
-        //[HttpGet("SetDInt")]
-        //public void SetDInt(int position, int value)
-        //{
-        //    tempUIService.WriteDInt(position, value);
-        //}
+        [HttpGet("SetDInt")]
+        public void SetDInt(int position, int value)
+        {
+            tempUIService.WriteDInt(position, value);
+        }
 
-        //[HttpGet("SetReal")]
-        //public void SetReal(int position, int value)
-        //{
-        //    tempUIService.WriteReal(position, value);
-        //}
+        [HttpGet("SetReal")]
+        public void SetReal(int position, float value)
+        {
+            tempUIService.WriteReal(position, value);
+        }
 
-        //[HttpGet("SetDBInt")]
-        //public void SetDBInt(int dbNumber, int position, short value)
-        //{
-        //    tempUIService.WriteDBInt(dbNumber, position, value);
-        //}
+        [HttpGet("SetDBInt")]
+        public void SetDBInt(int dbNumber, int position, short value)
+        {
+            tempUIService.WriteDBInt(dbNumber, position, value);
+        }
 
-        //[HttpGet("SetDBTime")]
-        //public void SetDBTime(int dbNumber, int position, int value)
-        //{
-        //    tempUIService.WriteDBTime(dbNumber, position, value);
-        //}
+        [HttpGet("SetDBTime")]
+        public void SetDBTime(int dbNumber, int position, int value)
+        {
+            tempUIService.WriteDBTime(dbNumber, position, value);
+        }
 
-        //[HttpGet("SetDBReal")]
-        //public void SetDBReal(int dbNumber, int position, float value)
-        //{
-        //    tempUIService.WriteDBReal(dbNumber, position, value);
-        //}
+        [HttpGet("SetDBReal")]
+        public void SetDBReal(int dbNumber, int position, float value)
+        {
+            tempUIService.WriteDBReal(dbNumber, position, value);
+        }
 
-        //[HttpGet("SetDBWord")]
-        //public void SetDBWord(int dbNumber, int position, ushort value)
-        //{
-        //    tempUIService.WriteDBWord(dbNumber, position, value);
-        //}
+        [HttpGet("SetDBWord")]
+        public void SetDBWord(int dbNumber, int position, ushort value)
+        {
+            tempUIService.WriteDBWord(dbNumber, position, value);
+        }
 
-        //[HttpGet("SetDBDInt")]
-        //public void SetDBDInt(int dbNumber, int position, ushort value)
-        //{
-        //    tempUIService.WriteDBDInt(dbNumber, position, value);
-        //}
+        [HttpGet("SetDBDInt")]
+        public void SetDBDInt(int dbNumber, int position, ushort value)
+        {
+            tempUIService.WriteDBDInt(dbNumber, position, value);
+        }
 
-        //[HttpGet("SetDBBit")]
-        //public void SetDBBit(int dbNumber, int position, ushort value)
-        //{
-        //    tempUIService.WriteDBBit(dbNumber, position, value);
-        //}
+        [HttpGet("bitChangeDB")]
+        public void bitChangeDB(int dbNumber, int position, int bit)
+        {
+            tempUIService.bitChangeDB(dbNumber, position, bit);
+        }
 
         // POST api/<TempUIController>
         [HttpPost]

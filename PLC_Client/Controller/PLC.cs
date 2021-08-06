@@ -186,8 +186,8 @@ namespace PLC_Client.Controller {
             plcInterface.Disconnect();
         }
 
-        [HttpGet("SetDBBit")]
-        public void SetBitDB(int dbNumber, int position, int bit)
+        [HttpGet("bitChangeDB")]
+        public void bitChangeDB(int dbNumber, int position, int bit)
         {
             plcInterface.Connect();
             plcInterface.bitChangeDB(dbNumber, position, bit);
