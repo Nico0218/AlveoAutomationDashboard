@@ -8,3 +8,13 @@ AutomationDashboard.Common/bin/
 AutomationDashboard/bin/
 
 TestApp/bin/
+
+TestApp/obj/
+
+PLC_Client/obj/
+
+AutomationDashboard/obj/
+
+AutomationDashboard.Common/obj/
+
+Alveo-Automation-Dashboard-UI/.vscode/
